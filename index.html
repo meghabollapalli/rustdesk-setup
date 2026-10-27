@@ -495,7 +495,7 @@
       <section class="progress-panel" aria-labelledby="progress-title">
         <div class="progress-copy">
           <p class="progress-label" id="progress-title">Readiness</p>
-          <p class="progress-status" id="progress-status">0 of 8 complete</p>
+          <p class="progress-status" id="progress-status">0 of 7 complete</p>
           <div class="progress-track" aria-hidden="true"><div class="progress-bar" id="progress-bar"></div></div>
         </div>
         <div class="next-step" id="next-step">Next: <strong>Unzip the folder</strong><br><button class="reset-button" id="reset-checklist" type="button">Reset checklist</button></div>
@@ -512,7 +512,7 @@
               <h3>One pass, then you&rsquo;re ready.</h3>
               <p>Tick each item as you finish it. Your progress is saved on this device.</p>
             </div>
-            <div class="checklist-count" id="checklist-count">0 / 8</div>
+            <div class="checklist-count" id="checklist-count">0 / 7</div>
           </div>
           <div class="check-items" id="check-items">
             <label class="check-item"><input type="checkbox" data-task="zip"><span>ZIP folder downloaded from WhatsApp</span></label>
@@ -522,7 +522,6 @@
             <label class="check-item"><input type="checkbox" data-task="accept"><span>Accept and Continue clicked</span></label>
             <label class="check-item"><input type="checkbox" data-task="finish"><span>PowerShell window finished running</span></label>
             <label class="check-item"><input type="checkbox" data-task="code"><span>Machine code sent through WhatsApp</span></label>
-            <label class="check-item"><input type="checkbox" data-task="test"><span>Connection tested with another computer</span></label>
           </div>
           <div class="complete-message" id="complete-message" role="status" aria-live="polite"><strong>You&rsquo;re ready.</strong> Everything is checked off &mdash; I&rsquo;ll see you five minutes before the session.</div>
         </div>
@@ -589,8 +588,7 @@
         install: 'Click Install in RustDesk',
         accept: 'Click Accept and Continue',
         finish: 'Wait for the PowerShell window to finish',
-        code: 'Send your machine code on WhatsApp',
-        test: 'Test the connection'
+        code: 'Send your machine code on WhatsApp'
       };
 
       const readSaved = () => {
